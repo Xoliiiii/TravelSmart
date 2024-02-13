@@ -1,0 +1,21 @@
+.gallery{
+    max-width:200px;
+
+}
+
+
+.heroImg{
+    max-width:1520px;
+    height:auto;
+}
+
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 149%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black fill */
+        z-index: 1000; /* Adjust z-index value as needed to ensure it's above other elements */
+    }
