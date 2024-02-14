@@ -1,21 +1,70 @@
-.gallery{
-    max-width:200px;
 
+div{
+    width:100%;
+}
+
+.gallery{
+    max-width:150px;
+    position:absolute;
 }
 
 
 .heroImg{
-    max-width:1520px;
+    max-width:100%;
     height:auto;
 }
 
+.why{
+    padding:30px;
+    background-color:rgba(170, 185, 186, 1);
+    height:400px;
+}
 
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 149%;
-        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black fill */
-        z-index: 1000; /* Adjust z-index value as needed to ensure it's above other elements */
+.main{
+    color:white;
+    background-color:black;
+}
+
+.testimonial{
+    height:300px;
+    padding:30px;
+}
+
+.customerImg{
+    position:absolute;
+    left:200px;
+}
+
+.beach{
+    position:absolute;
+    left:410px;
+}
+
+.package{
+    height:558px;
+    background-color:rgba(170, 185, 186, 1);
+}
+
+@media(max-width: 992px){
+    .gallery{
+        max-width:100px;
     }
+}
+
+#image1{
+    left:800px;
+}
+
+#image2{
+    left:950px;
+    top:1100px;
+}
+
+#image3{
+    left:1100px;
+    top:1150px;
+}
+
+.testimonial{
+    background-color:black;
+}
