@@ -8,6 +8,11 @@ div{
     position:absolute;
 }
 
+.slogan{
+    position:absolute;
+    top:450px;
+    left:30px;
+}
 
 .heroImg{
     max-width:100%;
@@ -44,10 +49,43 @@ div{
     height:558px;
     background-color:rgba(170, 185, 186, 1);
 }
+ 
 
 @media(max-width: 992px){
     .gallery{
         max-width:100px;
+    }
+
+    .customerImg{
+        max-width:150px;
+        left:50px;
+        top:1100px;
+    }
+
+    .beach{
+        max-width:150px;
+        left:200px;
+    }
+
+    .slogan{
+        top:250px;
+        left:20px;
+    }
+}
+
+@media (max-width:992px){
+    img#image1{
+        left:400px;
+    }
+
+    img#image2{
+        top:600px;
+        left:500px;
+    }
+
+    img#image3{
+        top:650px;
+        left:600px;
     }
 }
 
@@ -57,12 +95,12 @@ div{
 
 #image2{
     left:950px;
-    top:1100px;
+    top:1127px;
 }
 
 #image3{
     left:1100px;
-    top:1150px;
+    top:1180px;
 }
 
 .testimonial{
