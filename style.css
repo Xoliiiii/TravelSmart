@@ -45,7 +45,7 @@ div{
     left:410px;
 }
 
-.package{
+.packages{
     height:558px;
     background-color:rgba(170, 185, 186, 1);
 }
@@ -105,4 +105,10 @@ div{
 
 .testimonial{
     background-color:black;
+}
+
+.packageImages{
+    display:flex;
+    position:absolute;
+    top:1900px;
 }
